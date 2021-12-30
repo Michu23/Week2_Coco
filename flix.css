@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "font";
+  src: url(/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30eg.woff2);
+}
+body {
+  font-family: "font";
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav1 {
+  height: 30px;
+  padding: 4px;
+}
+nav2 {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.nav2 ul {
+  margin: 0;
+}
+.nav2 li {
+  display: inline-block;
+  padding: 5px;
+}
+
+#img1 {
+  height: 40px;
+  width: 180px;
+}
+.content3 p {
+  font-size: small;
+}
+#colimg {
+  width: 500px;
+  height: 600px;
+}
+#rowend {
+  display: flex;
+  justify-content: flex-end;
+}
+.greyey p {
+  color: grey;
+}
+.foot p {
+  font-size: 13px;
+}
+.foot li {
+  list-style-type: none;
+  font-size: 13px;
+}
+.foot a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.Sec {
+  transition: 0.5s;
+  transform-origin: top;
+  transform: scaleY(1);
+}
+
+.np {
+  padding: 8px;
+}
+.black a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: medium;
+  padding-right: 18px;
+  cursor: pointer;
+}
+.black a::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s linear;
+}
+.black a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.icons i {
+  cursor: pointer;
+}
+.second {
+  cursor: pointer;
+}
+.linked a {
+  text-decoration: none;
+  color: white;
+}
+#check {
+  display: none;
+}
+#btn,
+#cancel {
+  color: white;
+  font-size: 30px;
+  float: left;
+  line-height: 80px;
+  margin-left: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 993px) {
+  .bigg {
+    display: none;
+  }
+  .xsnone {
+    display: none;
+  }
+}
+@media (min-width: 993px) {
+  .smallnav {
+    display: none;
+  }
+  .corro {
+    display: none;
+  }
+}
